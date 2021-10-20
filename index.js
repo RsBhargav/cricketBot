@@ -2,12 +2,8 @@
 // Licensed under the MIT License.
 
 // index.js is used to setup and configure your bot
-// const pino = require('pino');
-// const expressPino = require('express-pino-logger');
 var logger = require('./dialogs/logger.js').getLogger('index');
 const constant = require('./dialogs/const');
-// const logger = pino({ level: process.env.LOG_LEVEL || 'info' });
-// const expressLogger = expressPino({ logger });
 // Import required packages
 const path = require('path');
 const restify = require('restify');
